@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: "Montserrat", sans-serif;
+  width: 100vw; }
+
+main {
+  background-color: #24252A; }
+
+h1,
+h3 {
+  color: #f2f2f2; }
+
+h1 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2em; }
+
+p {
+  font-size: 1em;
+  margin: 10px;
+  line-height: 1.4em; }
+
+.separadores {
+  border-bottom: 2px solid #0088a9;
+  padding: 15px;
+  width: 100%; }
+
+.border-img {
+  border: #f2f2f2 solid 2px; }
+
+#galeria .col-lg-4 {
+  padding: 25px; }
+
+#galeria img {
+  width: 100%; }
+  #galeria img:hover {
+    border: 5px solid #f2f2f2; }
+
+.bg-contacto {
+  background-image: url(../images/madera-contacto.webp);
+  background-position: center center;
+}
+
+.btn-turq {
+  background: #0088a9; }
+
+.padd-ubi {
+  padding: 15px; }
+
+#button-ubi, #button-rounded {
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  color: #f2f2f2; }
+  #button-ubi:hover, #button-rounded:hover {
+    background-color: #0088a9; }
+
+#button-rounded {
+  border-radius: 4px; }
+
+#map {
+  height: 40vh;
+  width: 100%; }
+
+.inner {
+  overflow: hidden; }
+  .inner img {
+    transition: all 1.5s ease; }
+    .inner img:hover {
+      transform: scale(1.5);
+      cursor: pointer; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: size;
+  line-height: 2.4em;
+  color: #f2f2f2;
+  padding: 4px; }
+
+#botonera {
+  display: flex;
+  justify-content: center;
+  align-items: space-between; }
+
+.bg-gray {
+  background-color: #24252A; }
+
+.bg-black {
+  background-color: black; }
+
+  footer {
+    position: inherit;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: auto;
+    width: 100vw; }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0; }
+    .socials li {
+      margin: 0 10px; }
+      .socials li a {
+        text-decoration: none;
+        color: white; }
+        .socials li a i {
+          font-size: 1.1rem;
+          transition: color .4s ease; }
+          .socials li a i:hover {
+            color: #0088A9; }
+  
+  .footer-bottom {
+    width: auto;
+    padding: 20px 0;
+    text-align: center; }
+    .footer-bottom p {
+      font-size: 14px;
+      word-spacing: 2px;
+      text-transform: capitalize; }
+    .footer-bottom span {
+      text-transform: uppercase;
+      opacity: .4;
+      font-weight: 20vw; }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+    .footer-content h3 {
+      font-size: 1.8rem;
+      font-weight: 400vw;
+      text-transform: capitalize;
+      line-height: 3rem; }
+    .footer-content p {
+      max-width: 50vw;
+      margin: 10px auto;
+      line-height: 28px;
+      font-size: 1em; }
+  
+  #botonera {
+    background-color: black;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #botonera img {
+      width: 200px; }
+    #botonera ul {
+      display: flex; }
+      #botonera ul li {
+        list-style: none;
+        margin-right: 10px; }
+      #botonera ul a {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1em;
+        color: #f2f2f2; }
+        #botonera ul a:hover {
+          color: #0088a9; }
+
+  div.caja{
+    margin: 50px auto;
+    border: 3px solid #24252A;
+    width: 80%
+  }
+
+  #top-wlc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24252A;}
+    #top-wlc p{
+      color: #fff;}
+      #top-wlc a{
+        color: #fff;
+        transition: color .4s ease;}
+        #top-wlc a i:hover{
+          color: #0088a9;
+        }
+
+
+    .socials {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 1rem 0;
+      padding: 0px; }
+      .socials li {
+        margin: 0 10px; }
+        .socials li a {
+          text-decoration: none;
+          color: white; }
+          .socials li a i {
+            font-size: 1.1rem;
+            transition: color .4s ease; }
+            .socials li a i:hover {
+              color: #0088A9; }
